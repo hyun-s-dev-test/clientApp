@@ -7,8 +7,8 @@ import Agreement from '../screens/Agreement';
 import Mypage from '../screens/Mypage';
 import Edit from '../screens/Edit';
 import FindUser from '../screens/FindUser';
-import FindUserId from '../screens/FindUserId';
-import FindUserPassword from '../screens/FindUserPassword';
+// import FindUserId from '../screens/FindUserId';
+// import FindUserPassword from '../screens/FindUserPassword';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,8 +22,8 @@ const StackNavigation = () => {
       <Stack.Screen name="Mypage" component={Mypage} />
       <Stack.Screen name="Edit" component={Edit} />
       <Stack.Screen name="FindUser" component={FindUser} />
-      <Stack.Screen name="FindUserId" component={FindUserId} />
-      <Stack.Screen name="FindUserPassword" component={FindUserPassword} />
+      {/* <Stack.Screen name="FindUserId" component={FindUserId} />
+      <Stack.Screen name="FindUserPassword" component={FindUserPassword} /> */}
     </Stack.Navigator>
   );
 };
